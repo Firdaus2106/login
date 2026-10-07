@@ -1,0 +1,20 @@
+START
+
+INPUT username
+INPUT password
+
+IF username = "admin" AND password = "admin123" THEN
+    OUTPUT "Login ke page admin"
+
+ELSE IF username = "dosen" AND password = "dosen111" THEN
+    OUTPUT "Login ke page dosen"
+
+ELSE IF username = "mahasiswa" AND password = "mahasiswa123" THEN
+    OUTPUT "Login ke page mahasiswa"
+
+ELSE
+    OUTPUT "User dan password Anda salah"
+
+END IF
+
+END
